@@ -124,7 +124,7 @@ alex.forward(50)
 
 ###############################################################################
 #
-# DONE: 5.
+# DONE: 5.1
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       dave    matt
