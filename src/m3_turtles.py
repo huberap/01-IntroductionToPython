@@ -49,7 +49,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving, *click anywhere in the window to close it*.
 #
@@ -82,6 +82,7 @@ window.delay(20)  # Bigger numbers mean slower animation.
 # CONSTRUCT (make) a  SimpleTurtle  object and ASSIGN a NAME to the object.
 # -----------------------------------------------------------------------------
 boris = rg.SimpleTurtle()
+alex = rg.SimpleTurtle() #my new turtle
 
 # -----------------------------------------------------------------------------
 # Ask the SimpleTurtle object to do things by applying METHODs to it:
@@ -101,11 +102,15 @@ natasha.speed = 10  # Faster
 natasha.backward(50)
 natasha.right(90)
 natasha.forward(50)
-
+# added new lines below
+natasha.right(40)
+natasha.forward(20)
+alex.pen = rg.Pen('blue',20)
+alex.forward(50)
 
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add a few more line of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
@@ -119,7 +124,7 @@ natasha.forward(50)
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       dave    matt
@@ -146,7 +151,7 @@ natasha.forward(50)
 
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
